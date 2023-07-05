@@ -40,6 +40,7 @@ else:
     print('Incorrect! :()')
 
 print('You Got ' + str(score) + " Questions Correct!")
+print('You Got ' + str((score/4) * 100) + "%.")
 #answer = input('\n  ')
 #if answer == ' ':
 #    print('correct!')
